@@ -30,7 +30,7 @@ Caso desejemos viajar de **GRU** para **CDG** existem as seguintes rotas:
 3. GRU - CDG ao custo de **$75**
 4. GRU - SCL - ORL - CDG ao custo de **$45**
 
-O melhor preço é da rota **4** logo, o output da consulta deve ser **GRU - BRC - SCL - ORL - CDG**.
+O melhor preço é da rota **1** logo, o output da consulta deve ser **GRU - BRC - SCL - ORL - CDG**.
 
 
 ## Instalação
