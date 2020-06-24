@@ -37,19 +37,6 @@ O melhor preço é da rota **4** logo, o output da consulta deve ser **GRU - BRC
 
 É necessário ter o **dotnet CLI** instalado na versão 3.1.0 ou superior. Para instalação só seguir os passo [clicando aqui](https://dotnet.microsoft.com/download "download dotnet CLI").
 
-Se estiver usando linux:
-
-Linux - Ubutun
-```bash
-sudo apt-get install -y dotnet-sdk-3.1
-```
-
-Linux - Manjaro - Utilizada para desenvolvimento
-```bash
-sudo pacman -S dotnet-sdk
-```
-
-
 ## Uso
 
 Na raiz do repositório você irá a seguinte estrutura de diretórios e arquivos:
