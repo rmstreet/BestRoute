@@ -5,11 +5,11 @@ namespace BestRoute.Core.Models{
     {
         public BestRouteInfo(IList<Airport> routes, decimal totalPrice)
         {
-            this.routes = routes;
+            this.Routes = routes;
             TotalPrice = totalPrice;
         }
 
-        public IList<Airport> routes { get; }
+        public IList<Airport> Routes { get; }
         public decimal TotalPrice { get; }
         
     }

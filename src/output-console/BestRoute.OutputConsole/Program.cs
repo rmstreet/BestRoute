@@ -33,12 +33,12 @@ namespace BestRoute.OutputConsole
         private static void Print(Core.Models.BestRouteInfo bestRouteInfo)
         {
             Console.Write("best route: ");
-            var length = bestRouteInfo.routes.Count;
+            var length = bestRouteInfo.Routes.Count;
 
             for (int i = 0; i < length; i++)
             {
                 var sufix = i == length - 1 ? " > " : " - ";
-                Console.Write($"{bestRouteInfo.routes[i].Name}{sufix}");
+                Console.Write($"{bestRouteInfo.Routes[i].Name}{sufix}");
             }
 
             Console.Write($"${bestRouteInfo.TotalPrice}");
